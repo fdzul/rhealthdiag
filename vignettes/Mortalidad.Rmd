@@ -15,16 +15,16 @@ knitr::opts_chunk$set(
 ```
 
 
-Los datos de mortalidad general proporcionados por el [INEGI](https://www.inegi.org.mx/programas/mortalidad/#Datos_abiertos) incluye las variables para accesar a la región específica de interes como la entidad de ocurrencia, municipios de ocurrencia, y localidad de ocurrencia; las variables de causa de defunción,sexo, edad, profesion, escolaridad, año (2012-2019) etc. Esta información esta disponible en un paquete llamado **healthdiagr** y es  instalado en R desde la página de github con los siguientes comandos:
+Los datos de mortalidad general proporcionados por el [INEGI](https://www.inegi.org.mx/programas/mortalidad/#Datos_abiertos) incluye las variables para accesar a la región específica de interes como la entidad de ocurrencia, municipios de ocurrencia, y localidad de ocurrencia; las variables de causa de defunción,sexo, edad, profesion, escolaridad, año (2012-2019) etc. Esta información esta disponible en un paquete llamado **rhealthdiag** y es  instalado en R desde la página de github con los siguientes comandos:
 
 ```{r, warning=FALSE, message=FALSE, error=FALSE}
-remotes::install_github("fdzul/healthdiagr")
+remotes::install_github("fdzul/rhealthdiag")
 ```
 
 o
 
 ```{r, warning=FALSE, message=FALSE, error=FALSE}
-devtools::install_github("fdzul/healthdiagr")
+devtools::install_github("fdzul/rhealthdiag")
 ```
 
 Por el momento debido a el tamaño de las bases de datos, únicamente la mortalidad general del estado de Puebla esta dispobible en el paquete, pero en futuras actualizaciones se pondra dispobible la información de mortalidad de todos los estados del país.
@@ -33,17 +33,17 @@ Por el momento debido a el tamaño de las bases de datos, únicamente la mortali
 Para accesar a la base de datos de mortalidad general del estado de Puebla, se usa el siguiente comando en R.
 
 ```{r, warning=FALSE, message=FALSE}
-library(healthdiagr) # o healthdiagr::mortalidad_general_21
+library(rhealthdiag) # o rhealthdiag::mortalidad_general_21
 names(mortalidad_general_21)
 ```
 
 
 ```{r, warning=FALSE, message=FALSE}
-head(healthdiagr::mortalidad_general_21)
+head(rhealthdiag::mortalidad_general_21)
 ```
 
 
 ```{r, warning=FALSE, message=FALSE}
-str(healthdiagr::mortalidad_general_21)
+str(rhealthdiag::mortalidad_general_21)
 ```
 

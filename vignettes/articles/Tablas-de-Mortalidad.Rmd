@@ -31,8 +31,8 @@ Para calcular todas estas tables (excepto mortalidad materna), se usarán los si
 
 ## Mortalidad general del Estado de Puebla 2012 a 2019
 ```{r}
-library(healthdiagr)
-healthdiag::mort_year_edo_dt(dataset = mortalidad_general_21,
+library(rhealthdiag)
+rhealthdiag::mort_year_edo_dt(dataset = mortalidad_general_21,
                              years = 2012:2019, 
                              cve_edo = "21")
 ```

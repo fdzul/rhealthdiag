@@ -18,11 +18,11 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-*The goal of healthdiagr is a package developed in the department of prevention and control of diseases transmitted by vector of the [Secretary of Health of Veracruz](https://www.ssaver.gob.mx/) and with colaboration of the federal level.*
+*The goal of rhealthdiag is a package developed in the department of prevention and control of diseases transmitted by vector of the [Secretary of Health of Veracruz](https://www.ssaver.gob.mx/) and with colaboration of the federal level.*
 
 ### **overview**
 
-**healthdiagr** is a package designed to generate a health diagnosis of the mortality of a state, municipality or locality using data from the [INEGI](https://www.inegi.org.mx/programas/mortalidad/#Datos_abiertos). The package contain the mortality of Puebla state (with the updates we add all states) and the functions for generate the tables, static and interactive maps.
+**rhealthdiag** is a package designed to generate a health diagnosis of the mortality of a state, municipality or locality using data from the [INEGI](https://www.inegi.org.mx/programas/mortalidad/#Datos_abiertos). The package contain the mortality of Puebla state (with the updates we add all states) and the functions for generate the tables, static and interactive maps.
 
 
 **Datasets**
@@ -42,7 +42,7 @@ knitr::opts_chunk$set(
 You can install the released version of healthdiagr from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-#install.packages("healthdiagr")
+#install.packages("rhealthdiag")
 ```
 
 ## Development version
@@ -51,13 +51,13 @@ To get a bug fix, or use a feature from the development version, you can install
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("fdzul/healthdiagr")
+remotes::install_github("fdzul/rhealthdiag")
 ```
 or
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("fdzul/healthdiagr")
+devtools::install_github("fdzul/rhealthdiag")
 ```
 
 ## Example
@@ -65,8 +65,8 @@ devtools::install_github("fdzul/healthdiagr")
 This is a basic example which shows you how load the mortality dataset in R:
 
 ```{r example}
-library(healthdiagr)
-head(healthdiagr::mortalidad_general_21)
+library(rhealthdiag)
+head(rhealthdiag::mortalidad_general_21)
 ```
 
 ## Authors

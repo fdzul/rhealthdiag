@@ -6,14 +6,14 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-*The goal of healthdiagr is a package developed in the department of
+*The goal of rhealthdiag is a package developed in the department of
 prevention and control of diseases transmitted by vector of the
 [Secretary of Health of Veracruz](https://www.ssaver.gob.mx/) and with
 colaboration of the federal level.*
 
 ### **overview**
 
-**healthdiagr** is a package designed to generate a health diagnosis of
+**rhealthdiag** is a package designed to generate a health diagnosis of
 the mortality of a state, municipality or locality using data from the
 [INEGI](https://www.inegi.org.mx/programas/mortalidad/#Datos_abiertos).
 The package contain the mortality of Puebla state (with the updates we
@@ -41,7 +41,7 @@ You can install the released version of healthdiagr from
 [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-#install.packages("healthdiagr")
+#install.packages("rhealthdiag")
 ```
 
 ## Development version
@@ -51,14 +51,14 @@ install boldenr from GitHub.
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("fdzul/healthdiagr")
+remotes::install_github("fdzul/rhealthdiag")
 ```
 
 or
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("fdzul/healthdiagr")
+devtools::install_github("fdzul/rhealthdiag")
 ```
 
 ## Example
@@ -67,8 +67,8 @@ This is a basic example which shows you how load the mortality dataset
 in R:
 
 ``` r
-library(healthdiagr)
-head(healthdiagr::mortalidad_general_21)
+library(rhealthdiag)
+head(rhealthdiag::mortalidad_general_21)
 #>   ent_ocurr mun_ocurr loc_ocurr causa_def_cve lista_mex_cve   sexo edad_cve
 #> 1        21       011      0001          I219           28A Hombre     4053
 #> 2        21       085      0001          I619           30B  Mujer     4062

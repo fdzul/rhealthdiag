@@ -2,7 +2,7 @@
 % Please edit documentation in R/mort_year_edo_map.R, R/mort_year_mpo_map.R
 \name{mort_year_edo_map}
 \alias{mort_year_edo_map}
-\title{mortality maps}
+\title{mortality maps by state}
 \usage{
 mort_year_edo_map(
   dataset,
@@ -34,14 +34,16 @@ mort_year_edo_map(
 \item{cve_def}{is the id of cause of mortality.}
 
 \item{static_map}{is logical valur (TRUE o FALSE), if static_map is TRUE the map is static (ggplot2), else the maps es interecative (leafletmap)}
+
+\item{by_mun}{is a logical value (TRUE or FALSE). If TRUE the level is municipality, else localities.}
 }
 \value{
-
+a ggplot or leaflet map.
 
 
 }
 \description{
-mortality maps
+mortality maps by state
 
 mortality maps
 }

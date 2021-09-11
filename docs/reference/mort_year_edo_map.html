@@ -40,8 +40,7 @@
 
 
 <meta property="og:title" content="mortality maps by state — mort_year_edo_map" />
-<meta property="og:description" content="mortality maps by state
-mortality maps" />
+<meta property="og:description" content="mortality maps by state" />
 
 
 
@@ -126,7 +125,6 @@ mortality maps" />
 
     <div class="ref-description">
     <p>mortality maps by state</p>
-<p>mortality maps</p>
     </div>
 
     <pre class="usage"><span class='fu'>mort_year_edo_map</span><span class='op'>(</span>
@@ -135,16 +133,8 @@ mortality maps" />
   <span class='va'>cve_edo</span>,
   cat_group <span class='op'>=</span> <span class='cn'>NULL</span>,
   cve_def <span class='op'>=</span> <span class='cn'>NULL</span>,
-  <span class='va'>static_map</span>
-<span class='op'>)</span>
-
-<span class='fu'>mort_year_edo_map</span><span class='op'>(</span>
-  <span class='va'>dataset</span>,
-  <span class='va'>years</span>,
-  <span class='va'>cve_edo</span>,
-  cat_group <span class='op'>=</span> <span class='cn'>NULL</span>,
-  cve_def <span class='op'>=</span> <span class='cn'>NULL</span>,
-  <span class='va'>static_map</span>
+  <span class='va'>static_map</span>,
+  <span class='va'>by_mun</span>
 <span class='op'>)</span></pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
@@ -172,7 +162,7 @@ mortality maps" />
     </tr>
     <tr>
       <th>static_map</th>
-      <td><p>is logical valur (TRUE o FALSE), if static_map is TRUE the map is static (ggplot2), else the maps es interecative (leafletmap)</p></td>
+      <td><p>is logical valur (TRUE or FALSE), if static_map is TRUE the map is static (ggplot2), else the maps es interecative (leafletmap)</p></td>
     </tr>
     <tr>
       <th>by_mun</th>
@@ -183,8 +173,6 @@ mortality maps" />
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
     <p>a ggplot or leaflet map.</p>
-
-
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

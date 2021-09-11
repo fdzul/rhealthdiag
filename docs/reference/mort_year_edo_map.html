@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>mortality maps — mort_year_edo_map • rhealthdiag</title>
+<title>mortality maps by state — mort_year_edo_map • rhealthdiag</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,8 @@
 
 
 
-<meta property="og:title" content="mortality maps — mort_year_edo_map" />
-<meta property="og:description" content="mortality maps
+<meta property="og:title" content="mortality maps by state — mort_year_edo_map" />
+<meta property="og:description" content="mortality maps by state
 mortality maps" />
 
 
@@ -119,13 +119,13 @@ mortality maps" />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>mortality maps</h1>
+    <h1>mortality maps by state</h1>
     
     <div class="hidden name"><code>mort_year_edo_map.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>mortality maps</p>
+    <p>mortality maps by state</p>
 <p>mortality maps</p>
     </div>
 
@@ -174,13 +174,15 @@ mortality maps" />
       <th>static_map</th>
       <td><p>is logical valur (TRUE o FALSE), if static_map is TRUE the map is static (ggplot2), else the maps es interecative (leafletmap)</p></td>
     </tr>
+    <tr>
+      <th>by_mun</th>
+      <td><p>is a logical value (TRUE or FALSE). If TRUE the level is municipality, else localities.</p></td>
+    </tr>
     </table>
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    
-
-
+    <p>a ggplot or leaflet map.</p>
 
 
 

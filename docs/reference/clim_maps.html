@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • rhealthdiag</title>
+<title>climatic maps — clim_maps • rhealthdiag</title>
 
 
 <!-- jquery -->
@@ -39,7 +39,8 @@
 
 
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="climatic maps — clim_maps" />
+<meta property="og:description" content="climatic maps" />
 
 
 
@@ -58,7 +59,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -115,78 +116,44 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>climatic maps</h1>
+    
+    <div class="hidden name"><code>clim_maps.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    <p>climatic maps</p>
+    </div>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
+    <pre class="usage"><span class='fu'>clim_maps</span><span class='op'>(</span><span class='va'>cve_ent</span>, cve_mpo <span class='op'>=</span> <span class='cn'>NULL</span>, <span class='va'>state</span><span class='op'>)</span></pre>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-all-functions" class="hasAnchor"><a href="#section-all-functions" class="anchor"></a>All functions</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      
-      
-    </tbody><tbody>
-      
-      
-      <tr>
-        
-        <td>
-          <p><code><a href="clim_maps.html">clim_maps()</a></code> </p>
-        </td>
-        <td><p>climatic maps</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="mortalidad_general_21.html">mortalidad_general_21</a></code> </p>
-        </td>
-        <td><p>Mortality data of Puebla state.</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="mort_year_edo_dt.html">mort_year_edo_dt()</a></code> </p>
-        </td>
-        <td><p>Mortalidad by State, year, &amp; age group.</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="mort_year_edo_map.html">mort_year_edo_map()</a></code> </p>
-        </td>
-        <td><p>mortality maps by state</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="mort_year_loc_dt.html">mort_year_loc_dt()</a></code> </p>
-        </td>
-        <td><p>Mortalidad by locality/municipality/state, year, &amp; age group.</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="mort_year_mpo_dt.html">mort_year_mpo_dt()</a></code> </p>
-        </td>
-        <td><p>Mortalidad by municipality/state, year, &amp; age group.</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="temprec_maps.html">temprec_maps()</a></code> </p>
-        </td>
-        <td><p>Temperature and precipitation maps</p></td>
-      </tr>
-    </tbody>
+    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
+    <table class="ref-arguments">
+    <colgroup><col class="name" /><col class="desc" /></colgroup>
+    <tr>
+      <th>cve_ent</th>
+      <td><p>is the state id.</p></td>
+    </tr>
+    <tr>
+      <th>cve_mpo</th>
+      <td><p>is the municipality id.</p></td>
+    </tr>
+    <tr>
+      <th>state</th>
+      <td><p>is logical value (TRUE or FALSE). If state is TRUE, the map is state leval, else the map is a municipality level.</p></td>
+    </tr>
     </table>
-  </div>
 
+    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
+
+    <p>a ggplot.</p>
+    <h2 class="hasAnchor" id="author"><a class="anchor" href="#author"></a>Author</h2>
+
+    <p>felipe.dzul.m@gmail.com</p>
+
+  </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>

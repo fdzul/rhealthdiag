@@ -23,6 +23,8 @@ interactive maps.
 **Datasets**
 
 -   **`mortalidad_general_21`** Mortality of Puebla State (2012\_2019).
+-   **`mortalidad_general_12`** Mortality of Guerrero State
+    (2012\_2019).
 
 **Functions**
 

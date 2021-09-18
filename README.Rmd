@@ -28,6 +28,7 @@ knitr::opts_chunk$set(
 **Datasets**
 
   - **`mortalidad_general_21`** Mortality of Puebla State (2012_2019).
+  - **`mortalidad_general_12`** Mortality of Guerrero State (2012_2019).
 
 **Functions**
 

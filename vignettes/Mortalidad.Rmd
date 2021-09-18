@@ -27,7 +27,7 @@ o
 devtools::install_github("fdzul/rhealthdiag")
 ```
 
-Por el momento debido a el tamaño de las bases de datos, únicamente la mortalidad general del estado de Puebla esta dispobible en el paquete, pero en futuras actualizaciones se pondra dispobible la información de mortalidad de todos los estados del país.
+Por el momento debido a el tamaño de las bases de datos, únicamente la mortalidad general del estado de Puebla esta disponible en el paquete, pero en futuras actualizaciones se pondrá disponible la información de mortalidad de todos los estados del país.
 
 
 Para accesar a la base de datos de mortalidad general del estado de Puebla, se usa el siguiente comando en R.

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • rhealthdiag</title>
+<title>Mortality data of Guerrero state. — mortalidad_general_12 • rhealthdiag</title>
 
 
 <!-- jquery -->
@@ -39,7 +39,9 @@
 
 
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="Mortality data of Guerrero state. — mortalidad_general_12" />
+<meta property="og:description" content="A dataset containing the general mortality data  (2012-2019)
+from state of Guerrero." />
 
 
 
@@ -58,7 +60,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -115,84 +117,49 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>Mortality data of Guerrero state.</h1>
+    
+    <div class="hidden name"><code>mortalidad_general_12.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    <p>A dataset containing the general mortality data  (2012-2019)
+from state of Guerrero.</p>
+    </div>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
+    <pre class="usage"><span class='va'>mortalidad_general_12</span></pre>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-all-functions" class="hasAnchor"><a href="#section-all-functions" class="anchor"></a>All functions</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      
-      
-    </tbody><tbody>
-      
-      
-      <tr>
-        
-        <td>
-          <p><code><a href="clim_maps.html">clim_maps()</a></code> </p>
-        </td>
-        <td><p>climatic maps</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="mortalidad_general_12.html">mortalidad_general_12</a></code> </p>
-        </td>
-        <td><p>Mortality data of Guerrero state.</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="mortalidad_general_21.html">mortalidad_general_21</a></code> </p>
-        </td>
-        <td><p>Mortality data of Puebla state.</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="mort_year_edo_dt.html">mort_year_edo_dt()</a></code> </p>
-        </td>
-        <td><p>Mortalidad by State, year, &amp; age group.</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="mort_year_edo_map.html">mort_year_edo_map()</a></code> </p>
-        </td>
-        <td><p>mortality maps by state</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="mort_year_loc_dt.html">mort_year_loc_dt()</a></code> </p>
-        </td>
-        <td><p>Mortalidad by locality/municipality/state, year, &amp; age group.</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="mort_year_mpo_dt.html">mort_year_mpo_dt()</a></code> </p>
-        </td>
-        <td><p>Mortalidad by municipality/state, year, &amp; age group.</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="temprec_maps.html">temprec_maps()</a></code> </p>
-        </td>
-        <td><p>Temperature and precipitation maps</p></td>
-      </tr>
-    </tbody>
-    </table>
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A dataframe object with 149051 rows and 16 variables:</p><dl>
+  <dt>ent_ocurr</dt><dd><p>state id. Two digits, Puebla state is "12".</p></dd>
+  <dt>mun_ocurr</dt><dd><p>municipality id. Three digits.</p></dd>
+  <dt>loc_ocurr</dt><dd><p>locality id. Four digits.</p></dd>
+  <dt>causa_def_cve</dt><dd><p>cause of death identifier.</p></dd>
+  <dt>lista_mex_cve</dt><dd><p>mexican list id.</p></dd>
+  <dt>sexo</dt><dd><p>sexo of death.</p></dd>
+  <dt>edad_cve</dt><dd><p>age id.</p></dd>
+  <dt>anio_ocur</dt><dd><p>year of occurrence.</p></dd>
+  <dt>anio_nacim</dt><dd><p>year of birth.</p></dd>
+  <dt>ocupacion_cve</dt><dd><p>occupation identifier.</p></dd>
+  <dt>escolaridad_cve</dt><dd><p>scholarship identifier.</p></dd>
+  <dt>causa_def_des</dt><dd><p>description of cause of death.</p></dd>
+  <dt>escolaridad_des</dt><dd><p>description of schooling.</p></dd>
+  <dt>ocupacion_des</dt><dd><p>description of the occupation.</p></dd>
+  <dt>edad_des</dt><dd><p>description of the age.</p></dd>
+  <dt>lista_mex_des</dt><dd><p>description of mexican list.</p></dd>
+  ...
+
+</dl>
+
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p><a href='https://www.inegi.org.mx/programas/mortalidad/#Datos_abiertos'>https://www.inegi.org.mx/programas/mortalidad/#Datos_abiertos</a></p>
+
   </div>
-
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>
